@@ -70,7 +70,7 @@ public class Main {
 	}
 	
 	public static void stringsCharacter() {
-		Character c = new Character('a');
+		Character c = 'a';//new Character('a');
 		
 	}
 	
@@ -95,8 +95,8 @@ public class Main {
 
 		Integer i1 = 5;
 		Integer i2 = 5;
-		Integer i3 = new Integer(5);
-		Integer i4 = new Integer(5);
+		Integer i3 = 5;//new Integer(5);
+		Integer i4 = 5;//new Integer(5);
 		Integer i5 = Integer.valueOf(5);
 		System.out.println(i1 == i2);
 		System.out.println(i3 == i4);

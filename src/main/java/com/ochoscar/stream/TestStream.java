@@ -1,4 +1,4 @@
-package stream;
+package com.ochoscar.stream;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,11 +9,10 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import main.Vehiculo;
 
 public class TestStream {
 
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		//createStream();
 		//operationsStream1();
 		//operationsStream2();
@@ -53,11 +52,11 @@ public class TestStream {
 		//blackList = "a@a.com";
 
 		// Imprima la lista sin incluir los de la lista negra
-		/*for(int i = 0; i < lista.size(); i++) {
+		for(int i = 0; i < lista.size(); i++) {
 			if(blackList.contains(lista.get(i))) {
 				lista.remove(i);
 			}
-		}*/
+		}
 		Predicate<String> filtro = correo -> !blackList.contains(correo);
 		lista.stream().filter(filtro).forEach(System.out::println);
 	}
@@ -108,6 +107,6 @@ public class TestStream {
 		Stream<String> s4 = sb.build();
 		s4.forEach(x -> System.out.println(x));
 		
-	}
+	}*/
 	
 }

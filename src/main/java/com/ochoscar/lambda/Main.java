@@ -1,5 +1,7 @@
 package com.ochoscar.lambda;
 
+import com.ochoscar.entities.Person;
+
 import java.security.PrivilegedAction;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,7 +15,6 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import com.ochoscar.entity.Person;
 
 strictfp public class Main {
 

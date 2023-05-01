@@ -1,4 +1,4 @@
-package db;
+package com.ochoscar.db;
 
 
 import java.sql.Connection;

@@ -1,4 +1,4 @@
-package files;
+package com.ochoscar.files;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -42,7 +42,7 @@ public class MainFiles {
 			String lineaValores[] = linea.split("#");
 			String nombre = lineaValores[0];
 			String apellido = lineaValores[1];
-			Integer edad  = new Integer(lineaValores[2]);
+			Integer edad  = 30;//new Integer(lineaValores[2]);
 			Profesor profeNuevo = new Profesor(nombre, apellido, edad);
 			profes2.add(profeNuevo);
 		}
