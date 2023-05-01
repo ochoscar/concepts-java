@@ -21,3 +21,16 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+.idea/concepts-java.iml
+.idea/jpa-buddy.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/libraries/algs4.xml
+out/production/main/gui/CreateUserGUI.fxml
+out/production/main/internationalize/app_en_US.properties
+out/production/main/internationalize/app_es_ES.properties
+out/production/main1/main.iml
+src/main/main1.iml
+src/main/java/main.iml
+src/test/test.iml
