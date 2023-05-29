@@ -1,4 +1,4 @@
-package algoritmos_ordenamiento;
+package com.ochoscar.algoritmos_ordenamiento;
 
 import edu.princeton.cs.algs4.StdDraw;
 import static edu.princeton.cs.algs4.StdDraw.*;

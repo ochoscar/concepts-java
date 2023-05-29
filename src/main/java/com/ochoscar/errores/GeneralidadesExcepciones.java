@@ -1,10 +1,8 @@
-package errores;
-
-import main.Vehiculo;
+package com.ochoscar.errores;
 
 public class GeneralidadesExcepciones {
 	
-	private static Vehiculo v;
+	private static entity.Vehiculo v;
 	
 	public static void main(String[] args)  {
 		//Vehiculo v = null;

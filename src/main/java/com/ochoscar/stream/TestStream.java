@@ -1,5 +1,7 @@
 package stream;
 
+import entity.Vehiculo;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -8,8 +10,6 @@ import java.util.Optional;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
-import main.Vehiculo;
 
 public class TestStream {
 

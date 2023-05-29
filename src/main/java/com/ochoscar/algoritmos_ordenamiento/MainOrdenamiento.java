@@ -1,4 +1,4 @@
-package algoritmos_ordenamiento;
+package com.ochoscar.algoritmos_ordenamiento;
 
 import java.util.Random;
 
